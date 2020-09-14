@@ -20,8 +20,8 @@ This will create a subfolder for your new project.
 
 `.vscode/tasks.json` comes preconfigured with the following tasks:
 
-**clean** - runs `make clean`
-**execute** - runs `make execute`
-**compile** - runs `make compile`
-**run** - builds and runs using `make run`
+- **clean** - runs `make clean`
+- **execute** - runs `make execute`
+- **compile** - runs `make compile`
+- **run** - builds and runs using `make run`
 
