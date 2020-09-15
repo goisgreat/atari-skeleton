@@ -16,15 +16,17 @@ make create project=YourProjectName
 
 This will create a subfolder for your new project.
 
-
-## Visual Studio Code Tasks
-
+## Visual Studio Code tasks
 Looking into the source code generated from creating a project, `.vscode/tasks.json` comes preconfigured with the following tasks:
 
-- **clean** - runs `make clean`
-- **execute** - runs `make execute`
-- **compile** - runs `make compile`
-- **run** - builds and runs using `make run`
+- **clean** to clean everything from the `bin`
+- **execute** to emulate the current project
+- **compile** to
+- **run** to compile *and* execute (this is the default build task for vscode users)
+
+## Using tasks with other editors
+If you *don't* use vscode and you *still* want to use these preconfigured tasks, don't worry!
+You can still invoke these tasks using the `make` program. Simply run `make compile` to compile, `make execute` to execute, etc.
 
 ## Makefiles
 
