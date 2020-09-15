@@ -39,9 +39,8 @@ All source code for the *Atari Project Creater* (not including that which is gen
 * Addison Brendtro
 * Steven Brendtro
 
-`LISCENCE.md`:
+`LISCENCE`:
 
-* Addison Brendtro
 * GLPv3 devs
 
 *Atari Project Creater* core:
