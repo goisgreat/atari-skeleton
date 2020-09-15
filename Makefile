@@ -14,9 +14,3 @@ updatemake:
 	cp .assets/Makefile $(project)
 execute:
 	@cd $(project) && make execute
-compile:
-	@cd $(project) && make compile
-run:
-	@cd $(project) && make run
-.SILENT:
-do: updatemake compile execute
