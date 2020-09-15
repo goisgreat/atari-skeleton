@@ -21,7 +21,7 @@ Looking into the source code generated from creating a project, `.vscode/tasks.j
 
 - **clean** to clean everything from the `bin`
 - **execute** to emulate the current project
-- **compile** to
+- **compile** to compile program (see `bin`)
 - **run** to compile *and* execute (this is the default build task for vscode users)
 
 ## Using tasks with other editors
@@ -38,6 +38,11 @@ All source code for the *Atari Project Creater* (not including that which is gen
 
 * Addison Brendtro
 * Steven Brendtro
+
+`LISCENCE.md`:
+
+* Addison Brendtro
+* GLPv3 devs
 
 *Atari Project Creater* core:
 
